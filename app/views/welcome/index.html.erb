@@ -5,6 +5,9 @@
   <li>Hello World Start</li>
 </ul>
 
+<% quote = Quote.first %> 
+<p>"<%= quote.content %>" -<%= quote.author_name %></p>
+
 <script type="text/javascript">
 
   const clickMeButtonEl = document.getElementById("click_me_button");
