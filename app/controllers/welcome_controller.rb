@@ -1,10 +1,11 @@
 class WelcomeController < ApplicationController
   def index
     @quote = Quote.new
+    @quotes = Quote.all
   end
 
   def create_quote 
-    Quote.create(quote_params)
+    @quote = Quote.create(quote_params)
     redirect_to root_path
   end
 
