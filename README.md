@@ -21,4 +21,4 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...Sunday commit. another one, check this out.
+* ...Sunday commit. another one, check this out. yes.
